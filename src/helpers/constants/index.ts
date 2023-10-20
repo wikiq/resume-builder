@@ -28,7 +28,7 @@ export const SYSTEM_COLORS: IThemeColor[] = [
 export const AVAILABLE_TEMPLATES: ITemplate = {
   modern: {
     id: 'modern',
-    name: 'Modern Resume',
+    name: '现代简历',
     thumbnail: '/templates/modern.png',
     component: dynamic(() => import('src/templates/modern/MordernTemplate'), {
       ssr: false,
@@ -36,7 +36,7 @@ export const AVAILABLE_TEMPLATES: ITemplate = {
   },
   professional: {
     id: 'professional',
-    name: 'Professional Resume',
+    name: '专业简历',
     thumbnail: '/templates/professional.png',
     component: dynamic(() => import('src/templates/professional/ProfessionalTemplate'), {
       ssr: false,

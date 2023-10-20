@@ -24,37 +24,37 @@ interface ISupportedNtwkDefaultState {
 const SUPPORTED_NETWORK_DEFAULT_STATE: ISupportedNtwkDefaultState = {
   linkedin: {
     network: 'linkedin',
-    username: 'janedoe',
+    username: 'wikiq',
     url: '',
   },
   twitter: {
     network: 'twitter',
-    username: 'janedoe',
+    username: 'wikiq',
     url: '',
   },
   github: {
     network: 'github',
-    username: 'janedoe',
+    username: 'wikiq',
     url: '',
   },
   hackerrank: {
     network: 'hackerrank',
-    username: 'janedoe',
+    username: 'wikiq',
     url: '',
   },
   hackerearth: {
     network: 'hackerearth',
-    username: 'janedoe',
+    username: 'wikiq',
     url: '',
   },
   codechef: {
     network: 'codechef',
-    username: 'janedoe',
+    username: 'wikiq',
     url: '',
   },
   leetcode: {
     network: 'leetcode',
-    username: 'janedoe',
+    username: 'wikiq',
     url: '',
   },
 };

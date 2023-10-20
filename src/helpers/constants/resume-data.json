@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Jane Doe",
-    "label": "Frontend Developer",
-    "image": "https://randomuser.me/api/portraits/men/18.jpg",
-    "email": "janedoe@email.com",
-    "phone": "+91 9876543210",
-    "url": "www.e-resume.vercel.app",
+    "name": "齐文崧",
+    "label": "云计算架构工程师",
+    "image": "https://avatars.githubusercontent.com/u/95469977?v=4",
+    "email": "me@loser.dev",
+    "phone": "+86 13203788795",
+    "url": "loser.dev",
     "summary": "I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.",
     "location": {
       "address": "",
@@ -97,7 +97,7 @@
   "work": [
     {
       "id": "1",
-      "name": "Company 1",
+      "name": "重庆移通学院",
       "position": "Senior Software Developer",
       "url": "",
       "startDate": "Apr 2021",
@@ -111,7 +111,7 @@
     },
     {
       "id": "2",
-      "name": "Company 2",
+      "name": "晋中科技学院",
       "position": "Software Developer",
       "url": "",
       "startDate": "Jun 2015",
@@ -125,7 +125,7 @@
     },
     {
       "id": "3",
-      "name": "Company 3",
+      "name": "泰山科技学院",
       "position": "Trainee Developer",
       "url": "",
       "startDate": "Aug 2011",
