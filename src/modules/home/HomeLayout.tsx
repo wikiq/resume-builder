@@ -82,7 +82,7 @@ const HomeLayout = () => {
               />
             </div>
             <div className="col-span-12 sm:col-span-8">
-              <h3 className="text-xl md:text-2xl mb-2 text-resume-400">SIMPLEST WAY TO BUILD A</h3>
+              <h3 className="text-xl md:text-2xl mb-2 text-resume-400">快速构建一份简历</h3>
               <h1 className="text-5xl mb-12 text-resume-800">名字嘛，没想好</h1>
               <div className="flex mb-10">
                 <div className="bg-resume-800 w-1 rounded-lg"></div>
@@ -130,7 +130,7 @@ const HomeLayout = () => {
             <div className="col-span-12 lg:col-span-4 mb-4 lg:mb-0 flex flex-col items-center gap-2">
               <Image src={'/icons/palette.svg'} alt="logo" height="48" width="48" />
               <p className="text-resume-800 text-xl mt-2">
-                Do you want to make your own <strong>template?</strong>
+                你想制作自己的 <strong>模板?</strong>
               </p>
             </div>
             <div className="col-span-12 lg:col-span-1 mb-4 lg:mb-0 text-resume-800 text-4xl">
@@ -139,7 +139,7 @@ const HomeLayout = () => {
             <div className="col-span-12 lg:col-span-2 flex flex-col items-center gap-2">
               <Image src={'/icons/terminal.svg'} alt="logo" height="48" width="48" />
               <p className="text-resume-800 text-xl mt-2">
-                Do you write <strong>React</strong> code?
+                你会写<strong>React</strong> code?
               </p>
             </div>
             <div className="invisible lg:visible lg:col-span-2 text-resume-800 text-4xl mx-6">
@@ -170,10 +170,11 @@ const HomeLayout = () => {
         className="mx-6 md:mx-40 xl:mx-60 my-32"
         style={{ fontFamily: "'Roboto Slab', serif" }}
       >
-        <h2 className="text-resume-800 text-3xl mb-2 text-center lg:text-left">About us</h2>
+        <h2 className="text-resume-800 text-3xl mb-2 text-center lg:text-left">关于我</h2>
         <p className="text-resume-400 mb-8 text-center lg:text-left">
-          A bunch of developers and designers — who love to build open source projects and learn
-          along!
+          小菜鸟一个，没怎么做过前端。
+          <br />
+          本职运维，技能：CentOS，Docker，OpenStack，Kubernetes，UI/UX。
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <Person />
