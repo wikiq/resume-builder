@@ -83,8 +83,7 @@ const HomeLayout = () => {
             </div>
             <div className="col-span-12 sm:col-span-8">
               <h3 className="text-xl md:text-2xl mb-2 text-resume-400">SIMPLEST WAY TO BUILD A</h3>
-              <h1 className="text-5xl mb-12 text-resume-800">Professional Resume</h1>
-
+              <h1 className="text-5xl mb-12 text-resume-800">名字嘛，没想好</h1>
               <div className="flex mb-10">
                 <div className="bg-resume-800 w-1 rounded-lg"></div>
                 <p className="text-lg ml-3 text-resume-800">
@@ -95,7 +94,7 @@ const HomeLayout = () => {
               </div>
               <Link href="/builder" passHref={true}>
                 <Button variant="contained" className="bg-resume-800 mb-2">
-                  BUILD YOUR RESUME
+                  做一份属于你的简历
                 </Button>
               </Link>
               <p
