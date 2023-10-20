@@ -31,7 +31,7 @@ const HomeLayout = () => {
         <div className="flex-auto flex justify-between items-center ml-5">
           <NavBarActions>
             <Link href="/builder" passHref={true}>
-              <StyledButton variant="text">Editor</StyledButton>
+              <StyledButton variant="text">Wikiq Resume</StyledButton>
             </Link>
           </NavBarActions>
           <NavBarActions>
