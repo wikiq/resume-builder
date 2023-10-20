@@ -139,7 +139,7 @@ const HomeLayout = () => {
             <div className="col-span-12 lg:col-span-2 flex flex-col items-center gap-2">
               <Image src={'/icons/terminal.svg'} alt="logo" height="48" width="48" />
               <p className="text-resume-800 text-xl mt-2">
-                你会写<strong>React</strong> code?
+                你会写<strong>React</strong> ?
               </p>
             </div>
             <div className="invisible lg:visible lg:col-span-2 text-resume-800 text-4xl mx-6">

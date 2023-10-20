@@ -9,7 +9,7 @@ function FeatureSection() {
           <Image src="/icons/style.svg" alt="style" height="56" width="56" />
         </CardPinnnedIcon>
         <p className="text-xl mr-14">
-          Customise with <strong>templates and themes</strong>!
+          你可以使用<strong>模板和主题</strong>定制!
         </p>
       </FeatureCard>
 
@@ -18,7 +18,7 @@ function FeatureSection() {
           <Image src="/icons/speed.svg" alt="speed" height="56" width="56" />
         </CardPinnnedIcon>
         <p className="text-xl mr-14">
-          Simple <strong>interface</strong> that helps you build quicky!
+          直观的 <strong>界面</strong> 帮助你快速构建页面!
         </p>
       </FeatureCard>
 
@@ -27,7 +27,7 @@ function FeatureSection() {
           <Image src="/icons/magic.svg" alt="magic" height="56" width="56" />
         </CardPinnnedIcon>
         <p className="text-xl mr-14">
-          No <strong>sign up </strong>needed — go straight to building!
+          不需要<strong>注册</strong>即可快速构建！
         </p>
       </FeatureCard>
 
@@ -36,7 +36,7 @@ function FeatureSection() {
           <Image src="/icons/lock.svg" alt="lock" height="56" width="56" />
         </CardPinnnedIcon>
         <p className="text-xl mr-14">
-          Your <strong>data</strong> never leaves your device
+          你的 <strong>数据</strong> 不会从你的设备上消失
         </p>
       </FeatureCard>
     </>
