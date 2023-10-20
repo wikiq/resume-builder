@@ -176,9 +176,9 @@ const HomeLayout = () => {
           <Person />
         </div>
         <p className="text-resume-400 my-8 text-center lg:text-left">
-          Read our design story on&nbsp;
+          更多欢迎来访问我的&nbsp;
           <a href="https://bento.me/qi" target="_blank" rel="noreferrer" className="underline">
-            MY Website
+            主页
           </a>
           ↗
         </p>
