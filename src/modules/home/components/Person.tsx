@@ -10,16 +10,16 @@ const persons = [
   },
   {
     name: 'TianDongXiao',
-    role: 'UI/UX',
+    role: 'UI Design，Developer',
     avatar: 'https://avatars.githubusercontent.com/u/22369081?v=4',
-    github: 'https://github.com/gopal1996',
+    github: 'https://github.com/qwsong',
     linkedin: 'https://www.linkedin.com/in/gopal1996',
   },
   {
-    name: 'Vivek G',
+    name: 'Vue',
     role: 'Product designer, half developer',
     avatar: 'https://avatars.githubusercontent.com/u/26523871?v=4',
-    github: 'https://github.com/yakshaG',
+    github: 'https://github.com/wikitian',
     linkedin: 'https://www.linkedin.com/in/vivek-g-india',
   },
   // {

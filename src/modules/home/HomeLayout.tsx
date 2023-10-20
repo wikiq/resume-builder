@@ -152,7 +152,7 @@ const HomeLayout = () => {
               <div>
                 <a href="https://github.com/wikiq/resume-builder" target="_blank" rel="noreferrer">
                   <Button variant="contained" className="bg-resume-800 mt-2 lg:mt-5 mb-3">
-                    CONTRIBUTE
+                    来star一下
                   </Button>
                 </a>
               </div>
