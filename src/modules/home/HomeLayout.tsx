@@ -150,11 +150,7 @@ const HomeLayout = () => {
                 <Image src={'/icons/wave.svg'} alt="logo" height="48" width="48" />
               </div>
               <div>
-                <a
-                  href="https://github.com/sadanandpai/resume-builder"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="https://github.com/wikiq/resume-builder" target="_blank" rel="noreferrer">
                   <Button variant="contained" className="bg-resume-800 mt-2 lg:mt-5 mb-3">
                     CONTRIBUTE
                   </Button>
@@ -181,13 +177,8 @@ const HomeLayout = () => {
         </div>
         <p className="text-resume-400 my-8 text-center lg:text-left">
           Read our design story on&nbsp;
-          <a
-            href="https://medium.com/@yakshag/e-resume-build-a-professional-resume-design-case-study-3dc02a6359ea"
-            target="_blank"
-            rel="noreferrer"
-            className="underline"
-          >
-            Medium
+          <a href="https://bento.me/qi" target="_blank" rel="noreferrer" className="underline">
+            MY Website
           </a>
           ↗
         </p>
