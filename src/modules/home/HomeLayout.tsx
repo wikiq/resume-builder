@@ -31,17 +31,17 @@ const HomeLayout = () => {
         <div className="flex-auto flex justify-between items-center ml-5">
           <NavBarActions>
             <Link href="/builder" passHref={true}>
-              <StyledButton variant="text">Wikiq Resume</StyledButton>
+              <StyledButton variant="text">山木公@loser.dev</StyledButton>
             </Link>
           </NavBarActions>
           <NavBarActions>
             <Link href="#contribute" passHref={true}>
               <StyledButton variant="text" className="max-md:hidden">
-                Contribute
+                投稿
               </StyledButton>
             </Link>
             <Link href="#about-us" passHref={true}>
-              <StyledButton variant="text">About us</StyledButton>
+              <StyledButton variant="text">关于我们</StyledButton>
             </Link>
             <a
               href={'https://github.com/wikiq/resume-builder'}
