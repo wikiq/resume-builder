@@ -27,7 +27,7 @@ const EditorLayout = () => {
         {displayElement}
 
         <div className="mt-8">
-          <OutlinedButton onClick={resetResumeStore}>Reset all edits</OutlinedButton>
+          <OutlinedButton onClick={resetResumeStore}>点击重置</OutlinedButton>
         </div>
       </div>
     </ErrorBoundary>
