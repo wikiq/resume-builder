@@ -9,9 +9,9 @@ import AwardsLayout from 'src/modules/builder/editor/modules/awards/AwardsLayout
 export const headers: {
   [key: string]: { title: string; component: () => JSX.Element };
 } = {
-  'basic-details': { title: 'Basic details', component: BasicLayout },
+  'basic-details': { title: '基本信息', component: BasicLayout },
   'skills-and-expertise': {
-    title: 'Skills and expertise',
+    title: '专业技能',
     component: SkillsLayout,
   },
   education: { title: '教育经历', component: EducationLayout },
