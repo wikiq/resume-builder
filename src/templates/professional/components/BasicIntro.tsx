@@ -13,10 +13,10 @@ export default function BasicIntro({ basics }: { basics: IBasics }) {
       <div className="flex flex-col gap-2">
         <Role className="text-sm">{basics.label}</Role>
         <span className="text-xs">
-          Relevant experience:&nbsp;
+          相关经验:&nbsp;
           <strong>{basics.relExp}</strong>
         </span>
-        <span className="text-xs">Total experience:&nbsp;{basics.totalExp}</span>
+        <span className="text-xs">经验总和:&nbsp;{basics.totalExp}</span>
       </div>
 
       <div className="flex flex-col justify-end gap-2">

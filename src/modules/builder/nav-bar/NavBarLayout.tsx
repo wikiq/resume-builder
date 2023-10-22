@@ -129,7 +129,7 @@ const NavBarLayout = () => {
             caption={`Templates (${TOTAL_TEMPLATES_AVAILABLE})`}
             popoverChildren={<TemplateSelect />}
           />
-          <NavMenuItem caption="Colours" popoverChildren={<ThemeSelect />} />
+          <NavMenuItem caption="颜色" popoverChildren={<ThemeSelect />} />
         </NavBarMenu>
         <NavBarActions>
           <StyledButton variant="text" onClick={exportResumeData}>
