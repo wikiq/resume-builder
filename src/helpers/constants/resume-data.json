@@ -187,17 +187,17 @@
   ],
   "awards": [
     {
-      "title": "Certificate of exceptional bug finder",
-      "date": "2014-11-01",
-      "awarder": "XYZ client",
-      "summary": "* Recognition zero defect delivery",
+      "title": "PMP",
+      "date": "2022-11-01",
+      "awarder": "PMP",
+      "summary": "PMP（项目管理专业人士认证）： 对于从事项目管理的人员，PMP认证是国际上通用的证书",
       "id": "1"
     },
     {
-      "title": "Certificate of best frontend developer",
-      "date": "2016-11-01",
-      "awarder": "XYZ client",
-      "summary": "Awarded for exceptional improvements made to improve user experience",
+      "title": "PMP",
+      "date": "2022-11-01",
+      "awarder": "PMP",
+      "summary": "PMP（项目管理专业人士认证）： 对于从事项目管理的人员，PMP认证是国际上通用的证书",
       "id": "1"
     }
   ]
