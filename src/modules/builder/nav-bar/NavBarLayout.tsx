@@ -133,7 +133,7 @@ const NavBarLayout = () => {
         </NavBarMenu>
         <NavBarActions>
           <StyledButton variant="text" onClick={exportResumeData}>
-            Export
+            导出
           </StyledButton>
           <StyledButton
             variant="text"
@@ -144,7 +144,7 @@ const NavBarLayout = () => {
               }
             }}
           >
-            Import{' '}
+            导入{' '}
             <input
               type="file"
               hidden
