@@ -18,16 +18,14 @@ export const TemplateSelect = () => {
     <div className={`h-[459px] w-[600px] bg-white flex flex-col px-10 py-[23px] shadow-2xl`}>
       <TemplateSlider />
       <Divider />
-      <span className="text-resume-800 font-bold text-lg my-[14px]">
-        Want to build your own template?
-      </span>
+      <span className="text-resume-800 font-bold text-lg my-[14px]">想制作自己的模板？</span>
       <div>
         <OutlinedButton
           onClick={() => {
-            window.open('https://github.com/sadanandpai/resume-builder', '_blank');
+            window.open('https://github.com/wikiq/resume-builder', '_blank');
           }}
         >
-          Contribute on Github
+          打开Github
         </OutlinedButton>
       </div>
     </div>
