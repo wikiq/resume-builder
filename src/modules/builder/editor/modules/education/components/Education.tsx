@@ -54,7 +54,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
   return (
     <Fragment>
       <TextField
-        label="School or College name"
+        label="学校名称"
         variant="filled"
         value={educationInfo.institution}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -68,7 +68,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Degree"
+        label="学位等级"
         variant="filled"
         value={educationInfo.studyType}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -81,7 +81,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Area"
+        label="地区"
         variant="filled"
         value={educationInfo.area}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -94,7 +94,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Grade"
+        label="职位"
         variant="filled"
         value={educationInfo.score}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -107,7 +107,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         sx={{ marginBottom: '26px' }}
       />
       <DatePicker
-        label="Start date"
+        label="开始日期"
         value={educationInfo.startDate}
         onChange={(newDate) => {
           onChangeHandler('startDate', newDate);
@@ -125,7 +125,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         }}
       />
       <DatePicker
-        label="End date"
+        label="结束日期"
         value={educationInfo.isStudyingHere ? null : educationInfo.endDate}
         onChange={(newDate) => {
           onChangeHandler('endDate', newDate);
