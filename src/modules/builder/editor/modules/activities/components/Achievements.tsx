@@ -6,7 +6,7 @@ const Achievements = () => {
   const activities = useActivity((state) => state.activities);
   return (
     <RichtextEditor
-      label="Achievements"
+      label="取得传感"
       value={activities.achievements}
       onChange={(htmlOutput) => {
         useActivity.getState().updateAchievements(htmlOutput);
