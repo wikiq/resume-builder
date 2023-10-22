@@ -59,7 +59,7 @@ export default function ProfessionalTemplate() {
           <BasicIntro basics={resumeData.basics} />
         </Section>
         <SectionValidator value={resumeData.work}>
-          <Section title="Work Experience">
+          <Section title="工作经历">
             <Work work={resumeData.work} />
           </Section>
         </SectionValidator>
@@ -91,28 +91,28 @@ export default function ProfessionalTemplate() {
         </SectionValidator>
 
         <SectionValidator value={skills.languages.concat(skills.frameworks)}>
-          <Section title="Technical expertise">
+          <Section title="技术专长">
             <RatedSkills items={skills.languages.concat(skills.frameworks)} />
           </Section>
         </SectionValidator>
 
         <SectionValidator value={skills.technologies.concat(skills.libraries, skills.databases)}>
-          <Section title="Skills / Exposure">
+          <Section title="技能/经验">
             <UnratedSkills items={skills.technologies.concat(skills.libraries, skills.databases)} />
           </Section>
         </SectionValidator>
         <SectionValidator value={skills.practices}>
-          <Section title="Methodology/Approach">
+          <Section title="方法/理论">
             <UnratedSkills items={skills.practices} />
           </Section>
         </SectionValidator>
         <SectionValidator value={skills.tools}>
-          <Section title="Tools">
+          <Section title="工具">
             <UnratedSkills items={skills.tools} />
           </Section>
         </SectionValidator>
         <SectionValidator value={resumeData.education}>
-          <Section title="Education">
+          <Section title="教育经历">
             <Education education={resumeData.education} />
           </Section>
         </SectionValidator>

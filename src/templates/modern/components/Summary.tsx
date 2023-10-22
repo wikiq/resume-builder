@@ -5,7 +5,7 @@ import { HTMLRenderer } from 'src/helpers/common/components/HTMLRenderer';
 export const SummarySection = ({ summary }: { summary: string }) => {
   return (
     <div className="mb-3">
-      <SectionHeading title="Summary" />
+      <SectionHeading title="摘要" />
       <SectionText>
         <HTMLRenderer htmlString={summary} />
       </SectionText>
