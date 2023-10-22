@@ -85,7 +85,7 @@ export default function ProfessionalTemplate() {
         </SectionValidator>
 
         <SectionValidator value={resumeData.basics.objective}>
-          <Section title="Career Objective">
+          <Section title="求职意向">
             <Objective objective={resumeData.basics.objective} />
           </Section>
         </SectionValidator>
