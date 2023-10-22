@@ -79,7 +79,7 @@ export default function ProfessionalTemplate() {
 
       <RightSection>
         <SectionValidator value={resumeData.basics.summary}>
-          <Section title="Summary">
+          <Section title="摘要">
             <AboutMe summary={resumeData.basics.summary} profileImage={resumeData.basics.image} />
           </Section>
         </SectionValidator>
