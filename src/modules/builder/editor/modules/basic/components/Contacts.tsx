@@ -11,7 +11,7 @@ const Contacts = ({
   return (
     <Fragment>
       <TextField
-        label="Name"
+        label="名字"
         variant="filled"
         value={basicTabs.name}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
@@ -19,7 +19,7 @@ const Contacts = ({
         }}
       />
       <TextField
-        label="Image URL"
+        label="头像链接"
         variant="filled"
         value={basicTabs.image}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
@@ -27,7 +27,7 @@ const Contacts = ({
         }}
       />
       <TextField
-        label="Title"
+        label="职务"
         variant="filled"
         value={basicTabs.label}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
@@ -35,7 +35,7 @@ const Contacts = ({
         }}
       />
       <TextField
-        label="Email"
+        label="邮箱"
         variant="filled"
         value={basicTabs.email}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
@@ -43,7 +43,7 @@ const Contacts = ({
         }}
       />
       <TextField
-        label="Website URL"
+        label="网站链接"
         variant="filled"
         value={basicTabs.url}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
@@ -51,7 +51,7 @@ const Contacts = ({
         }}
       />
       <TextField
-        label="Phone"
+        label="手机"
         variant="filled"
         value={basicTabs.phone}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
@@ -59,7 +59,7 @@ const Contacts = ({
         }}
       />
       <TextField
-        label="Location"
+        label="地址"
         variant="filled"
         value={basicTabs.location.city}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
@@ -69,7 +69,7 @@ const Contacts = ({
         }}
       />
       <TextField
-        label="Relevant Experience"
+        label="相关经验"
         variant="filled"
         value={basicTabs.relExp}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
@@ -77,7 +77,7 @@ const Contacts = ({
         }}
       />
       <TextField
-        label="Total Experience"
+        label="总体经验"
         variant="filled"
         value={basicTabs.totalExp}
         onChange={(event: ChangeEvent<HTMLInputElement>) => {
