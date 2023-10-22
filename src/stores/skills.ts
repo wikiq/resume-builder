@@ -45,7 +45,7 @@ export const useLanguages = create<ISkillState>(
 
       ...getMethods(set, get),
     }),
-    { name: 'languages' }
+    { name: '编程语言' }
   )
 );
 
@@ -59,7 +59,7 @@ export const useFrameworks = create<ISkillState>(
 
       ...getMethods(set, get),
     }),
-    { name: 'frameworks' }
+    { name: '开发框架' }
   )
 );
 
@@ -73,7 +73,7 @@ export const useTechnologies = create<ISkillState>(
 
       ...getMethods(set, get),
     }),
-    { name: 'technologies' }
+    { name: '技术栈' }
   )
 );
 
@@ -87,7 +87,7 @@ export const useLibraries = create<ISkillState>(
 
       ...getMethods(set, get),
     }),
-    { name: 'libraries' }
+    { name: '运维' }
   )
 );
 
@@ -101,7 +101,7 @@ export const useDatabases = create<ISkillState>(
 
       ...getMethods(set, get),
     }),
-    { name: 'databases' }
+    { name: '数据库' }
   )
 );
 
@@ -115,7 +115,7 @@ export const usePractices = create<ISkillState>(
 
       ...getMethods(set, get),
     }),
-    { name: 'practices' }
+    { name: '模型' }
   )
 );
 
@@ -129,6 +129,6 @@ export const useTools = create<ISkillState>(
 
       ...getMethods(set, get),
     }),
-    { name: 'tools' }
+    { name: '工具' }
   )
 );
