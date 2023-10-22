@@ -15,7 +15,7 @@ export const PrintResume = () => {
 
   return (
     <StyledButton onClick={globalThis?.print} variant="outlined">
-      Download as PDF
+      下载PDF
     </StyledButton>
   );
 };
