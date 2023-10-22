@@ -175,13 +175,13 @@
   "volunteer": [
     {
       "id": "1",
-      "organization": "Company XYZ",
-      "position": "Organizer",
-      "url": "https://xyx.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Organized several hackthons & monthly meetup to improve the community",
-      "highlights": ["Awarded 'Volunteer of the Month'"],
+      "organization": "公司 XYZ",
+      "position": "组织者",
+      "url": "https://loser.dev/",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "summary": "组织了多次黑客大赛和月度聚会，以改善社区环境",
+      "highlights": ["被授予 '本月最佳志愿者'称号"],
       "isVolunteeringNow": false
     }
   ],
