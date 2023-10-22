@@ -62,7 +62,7 @@ const Experience: React.FC<IExperienceProps> = ({ experienceInfo, currentIndex }
   return (
     <Fragment>
       <TextField
-        label="Comapany name"
+        label="公司名称"
         variant="filled"
         value={experienceInfo.name}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -76,7 +76,7 @@ const Experience: React.FC<IExperienceProps> = ({ experienceInfo, currentIndex }
         sx={{ marginBottom: '26px' }}
       />
       <TextField
-        label="Position"
+        label="职位"
         variant="filled"
         value={experienceInfo.position}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -89,7 +89,7 @@ const Experience: React.FC<IExperienceProps> = ({ experienceInfo, currentIndex }
         sx={{ marginBottom: '26px' }}
       />
       <DatePicker
-        label="Start date"
+        label="开始日期"
         value={experienceInfo.startDate}
         onChange={(newDate) => {
           onChangeHandler('startDate', newDate);
@@ -100,14 +100,14 @@ const Experience: React.FC<IExperienceProps> = ({ experienceInfo, currentIndex }
         )}
       />
       <SwitchWidget
-        label={'I currently work here'}
+        label={'仍在这里工作'}
         value={experienceInfo.isWorkingHere ?? false}
         onChange={(newValue: boolean) => {
           onChangeHandler('isWorkingHere', newValue);
         }}
       />
       <DatePicker
-        label="End date"
+        label="结束日期"
         value={experienceInfo.isWorkingHere ? null : experienceInfo.endDate}
         onChange={(newDate) => {
           onChangeHandler('endDate', newDate);
@@ -126,7 +126,7 @@ const Experience: React.FC<IExperienceProps> = ({ experienceInfo, currentIndex }
         disabled={experienceInfo.isWorkingHere}
       />
       <TextField
-        label="Years"
+        label="工作年份"
         variant="filled"
         value={experienceInfo.years}
         onChange={(e: ChangeEvent<HTMLInputElement>) => {
@@ -138,7 +138,7 @@ const Experience: React.FC<IExperienceProps> = ({ experienceInfo, currentIndex }
         sx={{ marginBottom: '26px' }}
       />
       <RichtextEditor
-        label="Few points on this work experience"
+        label="关于这次工作经历"
         value={experienceInfo.summary}
         onChange={onSummaryChange}
         name="summary"
