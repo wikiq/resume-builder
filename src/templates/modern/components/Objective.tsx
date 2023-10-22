@@ -5,7 +5,7 @@ import { HTMLRenderer } from 'src/helpers/common/components/HTMLRenderer';
 export const Objective = ({ objective }: { objective: string }) => {
   return (
     <>
-      <SectionHeading title="Objective" />
+      <SectionHeading title="目标" />
       <SectionText>
         <HTMLRenderer htmlString={objective} />
       </SectionText>

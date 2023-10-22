@@ -7,7 +7,7 @@ import { dateParser } from 'src/helpers/utils';
 export const EducationSection = ({ education }: { education: IEducation[] }) => {
   return (
     <div className="mb-3">
-      <SectionHeading title="Education" />
+      <SectionHeading title="教育经历" />
 
       {education.map((item: IEducation, index: number) => {
         return (

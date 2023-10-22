@@ -9,7 +9,7 @@ import { SectionTitle } from '../atoms/SectionTitle';
 export const WorkSection = ({ experience }: { experience: IWorkIntrf[] }) => {
   return (
     <div className="mb-3">
-      <SectionHeading title="Experience" />
+      <SectionHeading title="工作经历" />
 
       {experience.map((item: IWorkIntrf, index: number) => {
         return (
