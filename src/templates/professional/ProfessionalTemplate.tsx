@@ -65,13 +65,13 @@ export default function ProfessionalTemplate() {
         </SectionValidator>
 
         <SectionValidator value={involvements}>
-          <Section title="Key Projects / Involvements">
+          <Section title="主要项目/开源">
             <Involvement data={involvements} />
           </Section>
         </SectionValidator>
 
         <SectionValidator value={achievements}>
-          <Section title="Certificates and Awards">
+          <Section title="证书和奖项">
             <Achievements data={achievements} />
           </Section>
         </SectionValidator>
