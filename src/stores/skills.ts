@@ -52,7 +52,7 @@ export const useLanguages = create<ISkillState>(
 export const useFrameworks = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: '语言框架',
+      title: '开发框架',
       hasLevel: true,
       values: resumeData.skills.frameworks,
       isEnabled: true,
@@ -66,14 +66,14 @@ export const useFrameworks = create<ISkillState>(
 export const useTechnologies = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: '',
+      title: '技术栈',
       hasLevel: false,
       values: resumeData.skills.technologies,
       isEnabled: true,
 
       ...getMethods(set, get),
     }),
-    { name: '技术栈' }
+    { name: 'technologies' }
   )
 );
 
