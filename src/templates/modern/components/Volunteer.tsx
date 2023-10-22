@@ -9,7 +9,7 @@ import { HTMLRenderer } from 'src/helpers/common/components/HTMLRenderer';
 export const VolunteerSection = ({ volunteer }: { volunteer: IVolunteer[] }) => {
   return (
     <div className="mb-3">
-      <SectionHeading title="Volunteering" />
+      <SectionHeading title="志愿经历" />
 
       {volunteer.map((item: IVolunteer, index: number) => {
         return (
