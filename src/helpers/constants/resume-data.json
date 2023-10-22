@@ -154,13 +154,13 @@
     },
     {
       "id": "2",
-      "institution": "NMAMIT, Nitte",
-      "url": "https://www.mit.edu/",
+      "institution": "深圳职业技术大学, 专科",
+      "url": "https://www.szpt.edu.cn/",
       "studyType": "B.Tech (VTU)",
-      "area": "Computer Science",
-      "startDate": "2010",
+      "area": "计算机科学",
+      "startDate": "2023",
       "isStudyingHere": false,
-      "endDate": "2014",
+      "endDate": "2023",
       "score": "8.3 CGPA",
       "courses": []
     }
