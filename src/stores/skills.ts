@@ -38,35 +38,35 @@ const getMethods = (set: SetState<ISkillState>, get: GetState<ISkillState>) => (
 export const useLanguages = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: 'Languages',
+      title: '编程语言',
       hasLevel: true,
       values: resumeData.skills.languages,
       isEnabled: true,
 
       ...getMethods(set, get),
     }),
-    { name: '编程语言' }
+    { name: 'languages' }
   )
 );
 
 export const useFrameworks = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: 'Frameworks',
+      title: '语言框架',
       hasLevel: true,
       values: resumeData.skills.frameworks,
       isEnabled: true,
 
       ...getMethods(set, get),
     }),
-    { name: '开发框架' }
+    { name: 'Frameworks' }
   )
 );
 
 export const useTechnologies = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: 'Technologies',
+      title: '',
       hasLevel: false,
       values: resumeData.skills.technologies,
       isEnabled: true,
@@ -80,55 +80,55 @@ export const useTechnologies = create<ISkillState>(
 export const useLibraries = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: 'Libraries',
+      title: '运维经验',
       hasLevel: false,
       values: resumeData.skills.libraries,
       isEnabled: true,
 
       ...getMethods(set, get),
     }),
-    { name: '运维' }
+    { name: 'libraries' }
   )
 );
 
 export const useDatabases = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: 'Databases',
+      title: '数据库',
       hasLevel: false,
       values: resumeData.skills.databases,
       isEnabled: true,
 
       ...getMethods(set, get),
     }),
-    { name: '数据库' }
+    { name: 'databases' }
   )
 );
 
 export const usePractices = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: 'Practices',
+      title: '实践',
       hasLevel: false,
       values: resumeData.skills.practices,
       isEnabled: true,
 
       ...getMethods(set, get),
     }),
-    { name: '模型' }
+    { name: 'practices' }
   )
 );
 
 export const useTools = create<ISkillState>(
   persist(
     (set, get) => ({
-      title: 'Tools',
+      title: '工具',
       hasLevel: false,
       values: resumeData.skills.tools,
       isEnabled: true,
 
       ...getMethods(set, get),
     }),
-    { name: '工具' }
+    { name: 'tools' }
   )
 );

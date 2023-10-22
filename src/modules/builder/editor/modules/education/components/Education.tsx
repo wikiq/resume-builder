@@ -118,7 +118,7 @@ const Education: React.FC<IEducationProps> = ({ educationInfo, currentIndex }) =
         )}
       />
       <SwitchWidget
-        label={'I currently study here'}
+        label={'目前在这里上学'}
         value={educationInfo.isStudyingHere ?? false}
         onChange={(newValue: boolean) => {
           onChangeHandler('isStudyingHere', newValue);
