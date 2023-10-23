@@ -1,54 +1,39 @@
 <div align="center">
 
-# Resume Builder
+# 简历生成器
 
-### Free and open source, fully customizable professional single page resume builder
+### 免费且开源，完全可定制的专业单页简历生成器
 
-<a href="https://e-resume.vercel.app/"><img src="https://user-images.githubusercontent.com/12962887/201484876-75290af9-ccd6-4f6d-be96-6a8fb4f20c4b.png" alt="get started with resume builder" height="200" widdth="330" />
-
-https://e-resume.vercel.app
-
-[![](https://img.shields.io/github/stars/sadanandpai/single-page-resume-builder?style=for-the-badge)](#stars)
-[![](https://img.shields.io/github/forks/sadanandpai/single-page-resume-builder?style=for-the-badge)](#forks)
+<img src="https://user-images.githubusercontent.com/12962887/201484876-75290af9-ccd6-4f6d-be96-6a8fb4f20c4b.png" alt="开始使用简历生成器" height="200" widdth="330" />
 
 [![NextJS](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org/)
 [![Material React](https://skillicons.dev/icons?i=materialui)](https://mui.com/)
 [![TailwindCSS](https://skillicons.dev/icons?i=tailwind)](https://tailwindcss.com/)
 <a href="https://github.com/pmndrs/zustand"><img src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/bear-face.png" alt="" height="48" width="48" /></a>
 
-</div>
+## 关于
 
-## About
+[简历生成器](https://raw.loser.dev) 是一个开源应用，可以有效地构建专业的单页简历。
 
-[Resume Builder](https://e-resume.vercel.app) is an open source application where one can effectively build a single page professional resume.
+访问我们的[用户指南](USER_GUIDE.md)开始构建！
 
-Visit our [User Guide](USER_GUIDE.md) to start building!
+特点：
 
-Features:
+- 使用模板和主题进行定制！
+- 简单的界面，帮助您快速构建！
+- 无需注册，直接开始构建！
+- 您的数据永远不会离开您的设备
 
-- Customise with templates and themes!
-- Simple interface that helps you build quicky!
-- No sign up needed — go straight to building!
-- Your data never leaves your device
+> 免责声明：为了增强愿景和使用，我们正在对用户的交互进行阴影处理。这仅是为了更好地为您服务。
 
-> Disclaimer: In order to enhance the vision and usage, we are shadowing our user's interactions. This is solely performed to serve you better
+## 贡献指南
 
-Learn more about our design in the [*E-Resume — Build a professional resume: Design case study* Medium post.](https://uxplanet.org/e-resume-build-a-professional-resume-design-case-study-3dc02a6359ea)
+如果您有兴趣贡献（修复错误、改进功能或创建简历模板），请参阅[贡献指南](./CONTRIBUTING.md)。
 
-## Contributing Guide
+## 报告错误和功能请求
 
-If you are interested in contributing (fixing bugs, impoving features, or creating a resume template), please refer to [Contributing Guide](./CONTRIBUTING.md).
+[查看所有问题。](https://github.com/wikiq/raw/issues)
 
-## Report Bugs and Feature Requests
+## 许可证
 
-File a [bug report](https://github.com/sadanandpai/resume-builder/issues/new?assignees=sadanandpai&labels=&template=bug_report.md&title=) or [feature request](https://github.com/sadanandpai/resume-builder/issues/new?assignees=sadanandpai&labels=&template=feature_request.md&title=) using the [New Issues](https://github.com/sadanandpai/resume-builder/issues/new/choose) page. 
-
-[View all issues.](https://github.com/sadanandpai/resume-builder/issues)
-
-## Core Contributors
-
-<a href="https://github.com/sadanandpai"><img src="https://avatars.githubusercontent.com/u/12962887" alt="sadanand" height="75px" width="75px" /></a> <a href="https://github.com/gopal1996"><img src="https://avatars.githubusercontent.com/u/22369081" alt="sadanand" height="75px" width="75px" /></a> <a href="https://github.com/yakshaG"><img src="https://avatars.githubusercontent.com/u/26523871" alt="sadanand" height="75px" width="75px" /></a> <a href="https://github.com/siva-kannan3"><img src="https://avatars.githubusercontent.com/u/60533560" alt="sadanand" height="75px" width="75px" /></a>
-
-## License
-
-This repository is [MIT licensed](./LICENSE).
+此存储库采用 [MIT 许可证](./LICENSE)。
