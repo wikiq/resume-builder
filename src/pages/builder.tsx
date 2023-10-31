@@ -9,7 +9,6 @@ const BuilderPage: NextPage = () => {
         <title>构建你的简历吧</title>
         <meta name="description" content="Single Page Resume Builder" />
         <link rel="icon" type="image/png" href="/icons/resume-icon.png" />
-        
       </Head>
 
       <BuilderLayout />
