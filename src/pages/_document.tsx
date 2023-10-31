@@ -14,6 +14,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Kalam&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
           rel="stylesheet"
         />
+        <script async src="https://con.loser.dev/script.js" data-website-id="97e402d3-f1e6-4f62-a196-47b90e2b0de6"></script>
       </Head>
       <body>
         <Main />
