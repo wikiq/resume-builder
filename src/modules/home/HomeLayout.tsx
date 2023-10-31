@@ -133,6 +133,7 @@ const HomeLayout = () => {
                 你想制作自己的 <strong>模板?</strong>
               </p>
             </div>
+            <script async src="https://con.loser.dev/script.js" data-website-id="97e402d3-f1e6-4f62-a196-47b90e2b0de6"></script>
             <div className="col-span-12 lg:col-span-1 mb-4 lg:mb-0 text-resume-800 text-4xl">
               <p>+</p>
             </div>
