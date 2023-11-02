@@ -83,7 +83,7 @@ const HomeLayout = () => {
             </div>
             <div className="col-span-12 sm:col-span-8">
               <h3 className="text-xl md:text-2xl mb-2 text-resume-400">快速构建一份简历</h3>
-              <h1 className="text-5xl mb-12 text-resume-800">名字嘛，没想好</h1>
+              <h1 className="text-5xl mb-12 text-resume-800">Wikiq简历构建</h1>
               <div className="flex mb-10">
                 <div className="bg-resume-800 w-1 rounded-lg"></div>
                 <p className="text-lg ml-3 text-resume-800">
