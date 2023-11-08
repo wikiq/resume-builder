@@ -150,7 +150,7 @@ const HomeLayout = () => {
                 <Image src={'/icons/wave.svg'} alt="logo" height="48" width="48" />
               </div>
               <div>
-                <a href="https://github.com/wikiq/resume-builder" target="_blank" rel="noreferrer">
+                <a href="https://github.com/wikiq/raw" target="_blank" rel="noreferrer">
                   <Button variant="contained" className="bg-resume-800 mt-2 lg:mt-5 mb-3">
                     来star一下
                   </Button>
