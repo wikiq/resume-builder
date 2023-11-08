@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ""
-labels: ""
-assignees: sadanandpai
+title: ''
+labels: ''
+assignees: wikiq
 ---
 
 <!-- Give a title explaining the bug/issue -->
