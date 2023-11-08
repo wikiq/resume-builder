@@ -43,11 +43,7 @@ const HomeLayout = () => {
             <Link href="#about-us" passHref={true}>
               <StyledButton variant="text">关于我们</StyledButton>
             </Link>
-            <a
-              href={'https://github.com/wikiq/resume-builder'}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={'https://github.com/wikiq/raw'} target="_blank" rel="noopener noreferrer">
               <BsGithub className="h-6 w-6" fill="white" />
             </a>
           </NavBarActions>

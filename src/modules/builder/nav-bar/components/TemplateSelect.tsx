@@ -22,7 +22,7 @@ export const TemplateSelect = () => {
       <div>
         <OutlinedButton
           onClick={() => {
-            window.open('https://github.com/wikiq/resume-builder', '_blank');
+            window.open('https://github.com/wikiq/raw', '_blank');
           }}
         >
           打开Github
