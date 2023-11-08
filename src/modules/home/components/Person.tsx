@@ -11,7 +11,7 @@ const persons = [
   {
     name: 'HouShuang',
     role: 'Developer',
-    avatar: 'https://pb.loser.dev/file/6cb4dd07b8132e08cac09.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/81074?v=4',
     github: 'https://github.com/wikiq',
     linkedin: 'https://www.linkedin.com/in/dxws',
   },
